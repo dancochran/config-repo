@@ -1,0 +1,12 @@
+local.license.cache.hashtable.loadfactor: "0.60"
+
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.sqlite.JDBC"
+spring.datasource.url: "jdbc:sqlite::resource:license.db"
+spring.datasource.username: 
+spring.datasource.password: 
+spring.datasource.testWhileIdle: "false"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.SQLiteDialect"
+redis.server: "redis"
+redis.port: "6379"
+signing.key: "345345fsdfsf5345"
